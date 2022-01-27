@@ -4,6 +4,7 @@ import './css/App.css';
 import Header from './header';
 import Hero from './hero';
 import Projects from './projects';
+import Profile from './profile';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Hero/>
         <Projects/>
+        <Profile/>
         
         
     </div>

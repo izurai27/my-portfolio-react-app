@@ -5,16 +5,17 @@ import './css/projects.css';
 function FrontEndMentorProjects(){
     return (
       <div>
+        <p className='projectCategory'>Project challenge from frontendmentor.io</p>
+        <div className='container'>
         {frontendmentor.map(project => 
-        <div key={project.id}>
-        <a url={project.link}><img src={project.preview}></img> </a> 
-        <p>Project Name : {project.name}</p>
-        <p>Project Description:{project.description}</p>
-        <p>Technology used: {project.techUsed}</p>
-        
+        <div className='projectitem' key={project.id}>
+        <a url={project.link}><img className="preview" src={project.preview}></img> </a> 
+        <p className='projectDesc'>{project.name}</p>
+        <p className='projectDesc'>{project.description}</p>
+        <p className='projectDesc'>Technology used: {project.techUsed}</p>
+      </div>
+      )}
         </div>
-        )}
-        
       </div>
     )
   }
