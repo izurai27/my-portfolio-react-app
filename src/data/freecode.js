@@ -1,0 +1,81 @@
+import free1prev from '../images/tribute-to-ghibli-prev.png';
+
+export const freecode = [
+    {   id: 'free1', 
+        name: 'Ghibli Tribute Page',
+        description: '',
+        preview:free1prev,
+        techUsed:'HTML CSS',
+        link:'' },
+
+    {   id: 'free2', 
+        name: 'Product Survey Form',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    {   id: 'free3', 
+        name: 'Landing Page',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    { id: 'free4', 
+        name: 'Technical Documentation Page',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    {   id: 'free5', 
+        name: 'Personal portfolio',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    {   id: 'free6', 
+        name: 'Random Quote Machine',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    {   id: 'free7', 
+        name: 'Markdown Previewer',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+    { id: 'free8', 
+        name: 'Drum Machine',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    { id: 'free9', 
+        name: 'Calculator',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    { id: 'free10', 
+        name: '25+5clock',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+
+    { id: 'free11', 
+        name: 'Algorithm and Data Structure',
+        description: '',
+        preview:'',
+        techUsed:'',
+        link:'' },
+    
+];
+  
