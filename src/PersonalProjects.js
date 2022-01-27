@@ -1,5 +1,6 @@
 import React from 'react';
 import {personal} from './data/personal';
+import './css/projects.css';
 
 function PersonalProjects(){
     return (

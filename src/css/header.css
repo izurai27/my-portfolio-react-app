@@ -1,12 +1,12 @@
 header{
-    border:1px solid cyan;
+    /* border:1px solid cyan; */
     display:flex;
     justify-content: space-between;
     padding:10px;
     box-sizing: border-box;
     position:sticky;
     top:0;
-    background-color: inherit;
+    background-color: #004A64;
     align-items: center;
 }
 
@@ -45,23 +45,41 @@ header{
     position:absolute;
     bottom:-5px;
     left:0;
-    transition: 20s;
+    transition: 2s ease-in-out;
 }
 
 .logo{
     cursor: pointer;
     margin-left:10px;
-    border-radius:5px;
-    /* border:1px solid #CAF7FF; */
+    border-radius:100%;
     width:fit-content;
     height:fit-content;
-    min-width: 30px;
+    min-width: 25px;
     font-size: 0.7rem;
     padding:5px;
     background-color: #CAF7FF;
     color:#004A64;
-    transition: 1s;
+    /* transition: s; */
     font-size: 0.7rem;
     box-sizing: border-box;
+    box-shadow:0.5px 0.5px 1px #CAF7FF, -0.5px -0.5px 2px #CAF7FF ;
+
+}
+
+.logo:hover{
+    /* cursor: pointer;
+    margin-left:10px;*/
+    border-radius:5px;
+    width:fit-content;
+    height:fit-content;
+    /* min-width: 30px;
+    font-size: 0.7rem;
+    padding:5px;
+    background-color: #CAF7FF;
+    color:#004A64;
+    /* transition: s; */
+    /* font-size: 0.7rem;
+    box-sizing: border-box;
+    box-shadow:0.5px 0.5px 1px #CAF7FF, -0.5px -0.5px 2px #CAF7FF ; */ 
 }
 

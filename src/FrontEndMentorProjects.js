@@ -1,5 +1,6 @@
 import React from 'react';
 import {frontendmentor} from './data/frontendmentor';
+import './css/projects.css';
 
 function FrontEndMentorProjects(){
     return (
