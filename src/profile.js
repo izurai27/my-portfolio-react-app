@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/profile.css';
-import izma from './images/izma3.jpg'
+// import izma from './images/izma3.jpg'
 
 
 function Profile(){
