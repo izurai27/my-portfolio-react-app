@@ -5,6 +5,7 @@ import Header from './header';
 import Hero from './hero';
 import Projects from './projects';
 import Profile from './profile';
+import Quote from './quotecomponent';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
         <Header/>
         <Hero/>
+        <Quote/>
         <Projects/>
         <Profile/>
         

@@ -1,3 +1,38 @@
 img{
     width:100%;
 }
+
+.hero{
+    /* background-image: url('../images/bg3.jpg') ; */
+    /* width:100vw; */
+    height:fit-content;
+    /* background-size: cover; */
+    height: 90vh;
+    position:relative;
+    padding: 30px 30px 30px 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 2rem;
+    color : #232057;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    color : #232057;
+}
+
+.heroimgprofile{
+    
+    height: 150px;
+    width:150px;
+    border-radius: 100%;
+    /* border:2px solid whitesmoke; */
+    box-sizing:border-box;
+
+}

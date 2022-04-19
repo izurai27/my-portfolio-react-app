@@ -1,11 +1,29 @@
 .imgprofile{
     
-    height: 70px;
-    width:70px;
+    height: 100px;
+    width:100px;
     border-radius: 100%;
+    
+    
 
 }
 
 p{
     font-size: 0.7rem;
+}
+
+#profile{
+    /* width:100vw; */
+    height: 70vh;
+    background-image: url(/src/images/bgwave1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile p{
+    width:80vw;
 }

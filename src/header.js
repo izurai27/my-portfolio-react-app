@@ -1,22 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './css/header.css'
 
-function Logo(){
-    const [logo, setLogo] = useState('iz');
-    return(
-        <span className='logo' onMouseOver={()=>setLogo('izma raifani')} onMouseLeave={()=>setLogo('iz')}>{logo}</span>
-    )
-}
+// function timeOfDay() {
+//     let hour = new Date().getHours();
+//     if (hour >= 4 && hour <= 11) return 'Pagi';
+//     if (hour >= 12 && hour <= 16) return 'Siang';
+//     if (hour >= 17 && hour <= 20) return 'Sore';
+//     if (hour >= 21 || hour <= 3) return 'Malam';
+//   }
+  
 
 function Header(){
     return (
         <header>
-            {/* <span>izma raifani</span> */}
-            <Logo/>
-            <div className='nav'>
-                <a href='#project'>projects</a>
+            {/* <span className='greeting'>{`Selamat ${timeOfDay()}!`}</span> */}
+            <span className='greeting'>izma raifani portfolio</span>
+            <div className='nav-expand'>
+                <a href='#project'>works</a>
                 <a href='#profile'>profile</a>
                 <a href='#contact'>contact</a>
+            </div>
+
+            <div className='hbg-menu'>
+                <span className='topbtm'></span>
+                <span className='mdl'></span>
+                <span className='topbtm'></span>
             </div>
         </header>
     )

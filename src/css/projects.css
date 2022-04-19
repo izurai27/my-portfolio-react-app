@@ -2,22 +2,33 @@
     text-align: center;
 }
 
-.container{
+.proj-wrapper{
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+    
+}
+
+.proj-container{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
+    padding:30px;
 }
 
 .projectitem{
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     margin:20px;
     padding:10px;
 }
 
 .projectitem .preview{
-    width: 200px;
+    max-width: 564px;
+    max-height:150px;
+    border-radius: 5px;
+    box-shadow:  8px 8px 16px #d3d3d3,
+             -8px -8px 16px #ededed;
 }
 
 .projectDesc{
@@ -27,4 +38,5 @@
     text-align: left;
     
 }
+
 

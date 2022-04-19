@@ -1,11 +1,21 @@
 import React from 'react';
 import './css/hero.css'
+import izma from './images/izma3.jpg'
 
 function Hero(){
+    
+
     return(
         <div className="hero">
-            <img src="https://media.istockphoto.com/photos/on-colourful-speech-bubbles-picture-id180819641?k=20&m=180819641&s=612x612&w=0&h=hVdrI4nv903LCBJcw7O9dZR313toJG6IhwwJeB_CmKM="></img>
+            <div>
+            <img className='heroimgprofile' src={izma} alt='profilepic'></img>
+                <h1 className='title'>izma raifani</h1>
+                <p className='subtitle'>a frontend developer and product manager</p>
+            </div>
+            
+            
         </div>
+        
     )
 }
 
