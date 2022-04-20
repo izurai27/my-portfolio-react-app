@@ -3,6 +3,7 @@ import rockpaperscissor from './images/rockpaperscissor.png'
 import restcountriesapi from './images/restcountriesapi.png'
 import danasyariah from './images/DanaSyariah.png'
 import faq from './images/FAQAccordionCard.png'
+import chatApp from './images/chat-app.png'
 
 const projectlist = [
   {   id: 'project1', 
@@ -39,6 +40,13 @@ const projectlist = [
       preview: faq,
       techUsed:'html, sass, javascript',
       link:'https://izurai27.github.io/Frontendmentor-faq-accordion-card-main/' 
+  },
+  {   id: 'project6', 
+      name: 'chat-app-css-illustration-master',
+      description: 'Challenge dari frontendmentor.io',
+      preview: chatApp,
+      techUsed:'html, sass, javascript',
+      link:'https://izurai27.github.io/chat-app-css-illustration-master/' 
   },
   
   
