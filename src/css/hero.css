@@ -14,7 +14,11 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    /* background-image: url('../images/64002.jpg'); */
+    background-repeat: repeat;
+    background-size: 45%;
+    background-size: 70%;
+  
 }
 
 .title{
@@ -35,4 +39,15 @@ img{
     /* border:2px solid whitesmoke; */
     box-sizing:border-box;
 
+}
+
+.wrapper{
+    background-color: white;
+    border-radius: 50%;
+    height:400px;
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -7,10 +7,10 @@ function Hero(){
 
     return(
         <div className="hero">
-            <div>
+            <div className='wrapper'>
             <img className='heroimgprofile' src={izma} alt='profilepic'></img>
                 <h1 className='title'>izma raifani</h1>
-                <p className='subtitle'>a frontend developer and product manager</p>
+                <p className='subtitle'>a frontend developer<br/> and <br/>product manager</p>
             </div>
             
             
