@@ -14,7 +14,7 @@ function Header(){
     return (
         <header>
             {/* <span className='greeting'>{`Selamat ${timeOfDay()}!`}</span> */}
-            <span className='greeting'>izma raifani portfolio</span>
+            {/* <span className='greeting'>izma raifani portfolio</span> */}
             <div className='nav-expand'>
                 <a href='#project'>works</a>
                 <a href='#profile'>profile</a>

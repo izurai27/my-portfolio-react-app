@@ -15,13 +15,81 @@ padding: 50px 0 50px 0;
 
 
 .quote{
-  font-size: calc(17/375*100vw);
+  font-size: 1 rem;
   max-width: 70vw;
   color:white;
   text-align: center;
 }
 
 .author{
-  font-size: calc(14/375*100vw);
+  font-size: 0.8rem;
   color:white;
+}
+
+@media only screen and (min-width:576px){
+  .quote{
+    font-size: 1.1rem;
+    max-width: 70vw;
+    color:white;
+    text-align: center;
+  }
+  
+  .author{
+    font-size:0.9rem;
+    color:white;
+  }
+}
+
+@media only screen and (min-width:768px){
+  .quote{
+    font-size: 1.3rem;
+    max-width: 70vw;
+    color:white;
+    text-align: center;
+  }
+  
+  .author{
+    font-size: 1.1rem;
+    color:white;
+  }
+}
+
+@media only screen and (min-width:992px){
+  .quote{
+    font-size: 1.4rem;
+    max-width: 70vw;
+    color:white;
+    text-align: center;
+  }
+  
+  .author{
+    font-size: 1.2rem;
+    color:white;
+  }
+}
+@media only screen and (min-width:1200px){
+  .quote{
+    font-size: 1.6rem;
+    max-width: 70vw;
+    color:white;
+    text-align: center;
+  }
+  
+  .author{
+    font-size: 1.4rem;
+    color:white;
+  }
+}
+@media only screen and (min-width:1400px){
+  .quote{
+    font-size: 1.8rem;
+    max-width: 70vw;
+    color:white;
+    text-align: center;
+  }
+  
+  .author{
+    font-size: 1.6rem;
+    color:white;
+  }
 }
