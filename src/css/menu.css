@@ -1,0 +1,14 @@
+.nav-expand{
+  display:block;
+  /* background-color: white; */
+}
+
+a{
+  text-decoration: none;
+  margin-left:10px;
+  color:inherit;
+  font-size:0.8rem;
+  padding:5px;
+  box-sizing: border-box;
+  position: relative;
+}

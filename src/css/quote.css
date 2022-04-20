@@ -1,42 +1,44 @@
 .quotewrapper{
   height: fit-content;
+  height: 80vh;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* background-image: url(../images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg); */
   /* background-size: cover; */
-  background: rgb(49,46,103);
-background: linear-gradient(90deg, rgba(49,46,103,1) 9%, rgba(41,41,187,1) 97%, rgba(133,126,246,1) 100%);
-border-radius: 100px 0 100px 0;
-box-shadow: 2px 2px 15px gray;
+  /* background: rgb(49,46,103); */
+/* background: linear-gradient(90deg, rgba(49,46,103,1) 9%, rgba(41,41,187,1) 97%, rgba(133,126,246,1) 100%);
+border-radius: 100px 0 100px 0; */
+/* box-shadow: 2px 2px 15px gray; */
 padding: 50px 0 50px 0;
+box-sizing: border-box;
 }
 
 
 .quote{
   font-size: 1 rem;
   max-width: 70vw;
-  color:white;
+  /* color:white; */
   text-align: center;
 }
 
 .author{
   font-size: 0.8rem;
-  color:white;
+  /* color:white; */
 }
 
 @media only screen and (min-width:576px){
   .quote{
     font-size: 1.1rem;
     max-width: 70vw;
-    color:white;
+    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size:0.9rem;
-    color:white;
+    /* color:white; */
   }
 }
 
@@ -44,13 +46,13 @@ padding: 50px 0 50px 0;
   .quote{
     font-size: 1.3rem;
     max-width: 70vw;
-    color:white;
+    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size: 1.1rem;
-    color:white;
+    /* color:white; */
   }
 }
 
@@ -58,38 +60,38 @@ padding: 50px 0 50px 0;
   .quote{
     font-size: 1.4rem;
     max-width: 70vw;
-    color:white;
+    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size: 1.2rem;
-    color:white;
+    /* color:white; */
   }
 }
 @media only screen and (min-width:1200px){
   .quote{
     font-size: 1.6rem;
     max-width: 70vw;
-    color:white;
+    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size: 1.4rem;
-    color:white;
+    /* color:white; */
   }
 }
 @media only screen and (min-width:1400px){
   .quote{
     font-size: 1.8rem;
     max-width: 70vw;
-    color:white;
+    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size: 1.6rem;
-    color:white;
+    /* color:white; */
   }
 }

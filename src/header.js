@@ -1,5 +1,6 @@
 import React from 'react';
-import './css/header.css'
+import './css/header.css';
+import Menu from './menu';
 
 // function timeOfDay() {
 //     let hour = new Date().getHours();
@@ -11,21 +12,24 @@ import './css/header.css'
   
 
 function Header(){
+
+    let displaymenu=false;
+
+    const handleMenu = () => {
+        displaymenu = !displaymenu
+        console.log(displaymenu)
+    }
+
     return (
         <header>
-            {/* <span className='greeting'>{`Selamat ${timeOfDay()}!`}</span> */}
-            {/* <span className='greeting'>izma raifani portfolio</span> */}
-            <div className='nav-expand'>
-                <a href='#project'>works</a>
-                <a href='#profile'>profile</a>
-                <a href='#contact'>contact</a>
-            </div>
-
-            <div className='hbg-menu'>
+           
+            <div className='hbg-menu' onClick={handleMenu}>
                 <span className='topbtm'></span>
                 <span className='mdl'></span>
                 <span className='topbtm'></span>
             </div>
+            <Menu />
+
         </header>
     )
 }
