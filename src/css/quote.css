@@ -1,6 +1,6 @@
 .quotewrapper{
   height: fit-content;
-  height: 80vh;
+  height: 90vh;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +13,10 @@ border-radius: 100px 0 100px 0; */
 /* box-shadow: 2px 2px 15px gray; */
 padding: 50px 0 50px 0;
 box-sizing: border-box;
+background-image: url('../images/5156621.svg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left center;
 }
 
 
@@ -22,12 +26,20 @@ box-sizing: border-box;
   /* color:white; */
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+ 
 }
 
 .author{
   font-size: 0.8rem;
   /* color:white; */
   font-family: 'Dancing Script', cursive;
+}
+
+.background{
+  padding: 20px;
+   background-color: rgba(240, 248, 255, 0.603);
+   border-radius: 10px;
 }
 
 @media only screen and (min-width:576px){

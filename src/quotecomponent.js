@@ -7,8 +7,11 @@ const Quote = () => {
   return (
     <div className='quotewrapper'>
       {/* {quotes.map(quote =>  */}
-          <div className='quote'>{quotes[random].quote}</div> <br/>
+          <div className='background'>
+            <div className='quote'>{quotes[random].quote}</div> <br/>
           <div className='author'>{quotes[random].author}</div>
+          </div>
+          
       {/* )} */}
     </div>
   )
