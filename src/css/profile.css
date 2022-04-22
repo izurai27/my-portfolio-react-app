@@ -3,6 +3,7 @@
     /* width:100vw; */
     /* height: fit-content; */
     height: 50vh;
+    height: fit-content;
     padding:30px;
     /* background-position-y: 50vw; */
     display: flex;
@@ -40,9 +41,10 @@
     max-width: 50vw;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .desc{
     width:50vw;
-    
+    line-height: 1.5em;
+    font-size: 1 rem;
 }
