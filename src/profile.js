@@ -15,10 +15,13 @@ function Profile(){
       <div id='profile'>
         
         <h2>PROFILE</h2>
+        <div className="desc">
         <p>saya seorang ibu rumah tangga yang memutuskan untuk mendalami dunia web developer. Perjalanan saya dimulai sejak September 2021. Beruntung saat ini media pembelajaran dapat dengan mudah diakses di internet, banyak terima kasih kepada freecodecamp.org, Youtube WPU dan sumber lainnya, saya dapat mempelajari ilmu web programming hingga saya dapat berada di titik ini. 
         </p>
-        <p> menikmati proses pembuatan project web, sehingga saya memutuskan untuk dapat menerapkan dan mengembangkan ilmu yang sudah saya pelajari di dunia kerja. 
+        <p> menikmati proses pembuatan project web, saya memutuskan untuk dapat menerapkan dan mengembangkan ilmu yang sudah saya pelajari di dunia kerja. 
 </p>
+
+        </div>
         <dir className='grouping'>
           <h3>Skill :</h3>
           <div className='iconwrapper'>

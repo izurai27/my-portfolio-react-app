@@ -21,11 +21,13 @@ box-sizing: border-box;
   max-width: 70vw;
   /* color:white; */
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .author{
   font-size: 0.8rem;
   /* color:white; */
+  font-family: 'Dancing Script', cursive;
 }
 
 @media only screen and (min-width:576px){
