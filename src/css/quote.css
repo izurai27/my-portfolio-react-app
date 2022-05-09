@@ -16,12 +16,13 @@
 /* background: linear-gradient(90deg, rgba(49,46,103,1) 9%, rgba(41,41,187,1) 97%, rgba(133,126,246,1) 100%);
 border-radius: 100px 0 100px 0; */
 /* box-shadow: 2px 2px 15px gray; */
-padding: 50px 0 50px 0;
-box-sizing: border-box;
-background-image: url('../images/5156621.svg');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: left center;
+  padding: 50px 0 50px 0;
+  box-sizing: border-box;
+  background-image: url('../images/5156621.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  position:relative;
 
 }
 
@@ -61,8 +62,18 @@ background-position: left center;
    animation-name: bgc;
    /* animation-delay:4s; */
   animation-duration: 8s;
+  position:absolute;
 }
 
+.freepik{
+  text-align: right;
+  width:100vw;
+  position:absolute;
+  right:0;
+  bottom:30%;
+  /* top:-115px; */
+  font-size: small;
+}
 
 
 @media only screen and (min-width:576px){
@@ -77,6 +88,7 @@ background-position: left center;
     font-size:0.9rem;
     /* color:white; */
   }
+ 
 }
 
 @media only screen and (min-width:768px){
@@ -104,6 +116,10 @@ background-position: left center;
   .author{
     font-size: 1.2rem;
     /* color:white; */
+  }
+
+  .freepik{
+    bottom:25%;
   }
 }
 @media only screen and (min-width:1200px){
