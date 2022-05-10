@@ -8,7 +8,7 @@ function Projects(){
           <h2>WORKS /</h2>
           <div className='proj-container'>
             {projectlist.map(project => 
-              <div className='projectitem' key={project.id}>
+              <div className='projectitem' key={project.id} style={{backgroundColor:project.color}}>
                 <a href={project.link} target="_blank" rel="noreferrer"><img className="preview" src={project.preview} alt={project.name}/></a> 
               </div>
             )}
