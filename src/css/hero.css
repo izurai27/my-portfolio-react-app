@@ -31,6 +31,7 @@
 .hero-left .name{
     font-size:2.5rem;
     text-align: left;
+    font-weight: 700;
 }
 
 .hero-left .my-title{
@@ -101,22 +102,29 @@
     .hero-right{
         width : 65%;
         height:100%;
+        align-items:flex-end;
     }
 
     .hero-left{
         width:35%;
         display:flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
-        
+        position:relative;
+        margin-left:15vw;
         
     }
 
     .hero-left .name{
         width:100%;
-        text-align: right;
+        /* text-align: right; */
+        font-size: 4.5vw;
+        font-weight: 700;
+        text-decoration: wavy;
     }
+
+    
 
     .hero-right img{
         height:90%;
