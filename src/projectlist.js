@@ -1,7 +1,7 @@
-import dailyrecipe from './images/dailyrecipe.png'
-import rockpaperscissor from './images/rockpaperscissor.png'
+import dailyrecipe from './images/mockupdailyrecipe.png'
+import rockpaperscissor from './images/mockuprockpaper.png'
 import restcountriesapi from './images/restcountriesapi.png'
-import danasyariah from './images/DanaSyariah.png'
+import danasyariah from './images/mockupdanasyariah copy.png'
 import faq from './images/FAQAccordionCard.png'
 import chatApp from './images/chat-app.png'
 
@@ -12,7 +12,8 @@ const projectlist = [
       preview: dailyrecipe,
       techUsed:'reactjs, express, nodejs, axios, mongoDb Atlas, firebase',
       link:'https://dailyrecipeapp.netlify.app/',
-      color:'#00008b' 
+      color:'#e45c29',
+      fontcolor:'white' 
   },
   {   id: 'project4', 
       name: 'Landing Page Dana Syariah',
@@ -20,7 +21,8 @@ const projectlist = [
       preview: danasyariah,
       techUsed:'html, css, javascript',
       link:'https://dana-syariah.netlify.app/',
-      color:'#0df08b'  
+      color:'#0df08b',
+      fontcolor:'white'   
   },
   {   id: 'project2', 
       name: 'Rock Paper Scissor',
@@ -28,7 +30,8 @@ const projectlist = [
       preview: rockpaperscissor,
       techUsed:'html, sass, javascript',
       link:'https://izurai27.github.io/rock-paper-scissors/',
-      color:'#ddc913' 
+      color:'#db3e5b',
+      fontcolor:'white'  
   },
   {   id: 'project3', 
       name: 'rest-countries-api',

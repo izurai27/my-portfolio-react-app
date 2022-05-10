@@ -9,7 +9,16 @@ function Projects(){
           <div className='proj-container'>
             {projectlist.map(project => 
               <div className='projectitem' key={project.id} style={{backgroundColor:project.color}}>
-                <a href={project.link} target="_blank" rel="noreferrer"><img className="preview" src={project.preview} alt={project.name}/></a> 
+                <div className="projectDesc" style={{color:project.fontcolor}}>
+                  <div className="title">{project.name}</div>
+                  <div>{project.description}</div>
+                  <a href={project.link} target="_blank" rel="noreferrer">Link</a> 
+
+                </div>
+                <div className="imgcontainer">
+                  <img className="preview" src={project.preview} alt={project.name}/>
+
+                </div>
               </div>
             )}
           </div>
