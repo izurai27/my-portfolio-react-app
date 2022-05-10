@@ -1,29 +1,17 @@
-@keyframes bgc {
-  from {background-color: rgba(240, 248, 255, 0.021);}
-  to { background-color: rgba(240, 248, 255, 0.801);}
-}
+
 
 .quotewrapper{
   height: fit-content;
-  height: 90vh;
+  height: 80vh;
+  
   display:flex;
-  flex-direction: column;
+  
   justify-content: center;
-  align-items: center;
-  /* background-image: url(../images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg); */
-  /* background-size: cover; */
-  /* background: rgb(49,46,103); */
-/* background: linear-gradient(90deg, rgba(49,46,103,1) 9%, rgba(41,41,187,1) 97%, rgba(133,126,246,1) 100%);
-border-radius: 100px 0 100px 0; */
-/* box-shadow: 2px 2px 15px gray; */
+  /* align-items: center; */
   padding: 50px 0 50px 0;
   box-sizing: border-box;
-  background-image: url('../images/5156621.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left center;
   position:relative;
-
+  /* margin-bottom:150px; */
 }
 
 
@@ -36,9 +24,8 @@ border-radius: 100px 0 100px 0; */
 
 
 .quote{
-  font-size: 1 rem;
-  max-width: 70vw;
-  /* color:white; */
+  font-size: 2rem;
+  /* max-width: 70vw; */
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
@@ -48,7 +35,7 @@ border-radius: 100px 0 100px 0; */
 }
 
 .author{
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   /* color:white; */
   font-family: 'Dancing Script', cursive;
   animation-name: example;
@@ -57,35 +44,34 @@ border-radius: 100px 0 100px 0; */
 
 .background{
   padding: 20px;
-   background-color: rgba(240, 248, 255, 0.603);
    border-radius: 10px;
-   animation-name: bgc;
-   /* animation-delay:4s; */
-  animation-duration: 8s;
-  position:absolute;
+  z-index:888;
+  height: fit-content;
+  
 }
-
-.freepik{
-  text-align: right;
-  width:100vw;
-  position:absolute;
-  right:0;
-  bottom:30%;
-  /* top:-115px; */
-  font-size: small;
+ 
+.quotewrapper::after{
+  content:'';
+  height: 50%;
+  width: 100vw;
+  background-image: url('../images/5156621-thin.svg');
+  position: absolute;
+  background-repeat: repeat-x;
+  bottom: 0;
+  
 }
 
 
 @media only screen and (min-width:576px){
   .quote{
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     max-width: 70vw;
     /* color:white; */
     text-align: center;
   }
   
   .author{
-    font-size:0.9rem;
+    font-size:1.9rem;
     /* color:white; */
   }
  
@@ -93,58 +79,56 @@ border-radius: 100px 0 100px 0; */
 
 @media only screen and (min-width:768px){
   .quote{
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     max-width: 70vw;
     /* color:white; */
     text-align: center;
   }
   
   .author{
-    font-size: 1.1rem;
+    font-size: 2.1rem;
     /* color:white; */
   }
 }
 
 @media only screen and (min-width:992px){
   .quote{
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     max-width: 70vw;
     /* color:white; */
     text-align: center;
   }
   
   .author{
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     /* color:white; */
   }
 
-  .freepik{
-    bottom:25%;
-  }
+  
 }
 @media only screen and (min-width:1200px){
   .quote{
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     max-width: 70vw;
     /* color:white; */
     text-align: center;
   }
   
   .author{
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     /* color:white; */
   }
 }
 @media only screen and (min-width:1400px){
   .quote{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     max-width: 70vw;
     /* color:white; */
     text-align: center;
   }
   
   .author{
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     /* color:white; */
   }
 }

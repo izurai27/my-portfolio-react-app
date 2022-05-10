@@ -5,7 +5,7 @@ import projectlist from './projectlist'
 function Projects(){
     return(
       <div id="project" className='proj-wrapper'>
-          <h2>WORKS</h2>
+          <h2>WORKS /</h2>
           <div className='proj-container'>
             {projectlist.map(project => 
               <div className='projectitem' key={project.id}>
