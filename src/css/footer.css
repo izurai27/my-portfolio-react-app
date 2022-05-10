@@ -1,9 +1,11 @@
 footer{
   background-color: beige;
-  height: 25px;
+  height: fit-content;
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size:0.5rem;
+  font-size:1rem;
+ box-sizing: border-box;
   letter-spacing: 140%;
+  padding:10px;
 }
