@@ -33,7 +33,15 @@
              -8px -8px 16px #ededed;
      border-radius: 5px;         
     display:flex;
+    
 }
+
+/* .projectitem:hover{
+   
+    background-color: black; 
+    transition:ease-in-out;
+    transition-duration: 1s;
+} */
 
 .projectitem .projectDesc{
     width:40%;
@@ -43,6 +51,7 @@
     align-items: center;
     padding:30px;
     row-gap: 10px;
+    font-size: 1.5vw;
 }
 
 .projectDesc .title{
