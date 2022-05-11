@@ -16,7 +16,7 @@ const Quote = () => {
     } else {
       setRandom(0)
     }}
-    , 500000)
+    , 5000)
     
     console.log(random)
 
@@ -24,8 +24,11 @@ const Quote = () => {
     <div>
       <div className='quotewrapper'>
           <div className='background'>
-            <div className='quote'>"{quotes[random].quote}"</div> <br/>
-            <div className='author'>{quotes[random].author}</div>
+            <div>
+              <div className='quote'>"{quotes[random].quote}"</div> 
+              <div className='author'>{quotes[random].author}</div>
+
+            </div>
           </div>
       </div>
     </div>

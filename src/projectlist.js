@@ -1,7 +1,7 @@
 import dailyrecipe from './images/mockupdailyrecipe.png'
 import rockpaperscissor from './images/mockuprockpaper.png'
 import restcountriesapi from './images/restcountriesapi.png'
-import danasyariah from './images/mockupdanasyariah copy.png'
+import danasyariah from './images/mockupdanasyariah.png'
 import faq from './images/FAQAccordionCard.png'
 import chatApp from './images/chat-app.png'
 

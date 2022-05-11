@@ -7,6 +7,7 @@
   display:flex;
   
   justify-content: center;
+  align-items: center;
   /* align-items: center; */
   padding: 50px 0 50px 0;
   box-sizing: border-box;
@@ -31,6 +32,7 @@
   font-weight: 600;
   animation-name: example;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
  
 }
 
@@ -39,25 +41,31 @@
   /* color:white; */
   font-family: 'Dancing Script', cursive;
   animation-name: example;
-  animation-duration: 6s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 .background{
   padding: 20px;
-   border-radius: 10px;
+  
   z-index:888;
   height: fit-content;
-  
+  position:relative;
+  display:flex;
+
 }
  
 .quotewrapper::after{
   content:'';
   height: 50%;
-  width: 100vw;
+  width: 100%;
   background-image: url('../images/5156621-thin.svg');
   position: absolute;
   background-repeat: repeat-x;
-  bottom: 0;
+  top: 40vw;
+  /* z-index:-444; */
+  left:0;
+  /* background-size: 40%; */
   
 }
 
@@ -74,6 +82,11 @@
     font-size:1.9rem;
     /* color:white; */
   }
+
+  .quotewrapper::after{
+    
+    top: 22vw;
+  }
  
 }
 
@@ -88,6 +101,11 @@
   .author{
     font-size: 2.1rem;
     /* color:white; */
+  }
+
+  .quotewrapper::after{
+    
+    top: 8vw;
   }
 }
 
@@ -104,6 +122,10 @@
     /* color:white; */
   }
 
+  .quotewrapper::after{
+    
+    top: 4.3vw;
+  }
   
 }
 @media only screen and (min-width:1200px){
@@ -118,6 +140,10 @@
     font-size: 2.4rem;
     /* color:white; */
   }
+  .quotewrapper::after{
+    
+    top: 2.8vw;
+  }
 }
 @media only screen and (min-width:1400px){
   .quote{
@@ -130,5 +156,9 @@
   .author{
     font-size: 2.6rem;
     /* color:white; */
+  }
+  .quotewrapper::after{
+    
+    top: -1vw;
   }
 }
