@@ -1,6 +1,8 @@
 import React from 'react';
 import './css/projects.css'
 import projectlist from './projectlist'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Projects(){
     return(
@@ -17,7 +19,9 @@ function Projects(){
                 </div>
                 <div className="imgcontainer">
                   <img className="preview" src={project.preview} alt={project.name}/>
-
+                  {/* {project.techUsed.map(tech => 
+                    <img className='logos' src={tech} alt='tech logo' style={{width:'20px',height:'auto'}}/>
+                  )} */}
                 </div>
               </div>
             )}

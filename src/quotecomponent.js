@@ -25,7 +25,7 @@ const Quote = () => {
       <div className='quotewrapper'>
           <div className='background'>
             <div>
-              <div className='quote'>"{quotes[random].quote}"</div> 
+              <div className='quote' style={{transition:'2s ease in out'}}>"{quotes[random].quote}"</div> 
               <div className='author'>{quotes[random].author}</div>
 
             </div>
