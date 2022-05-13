@@ -4,11 +4,9 @@ import './css/hero.css'
 // import izma from './images/izma3.jpg'
 import femaleProgrammer from './images/female-programmer.svg'
 import logo from './images/iR-logos_transparent.png'
-import reveal from './reveal';
 
 function Hero(){
 
-    window.addEventListener("scroll", reveal);
     
     return(
         <div className="hero">

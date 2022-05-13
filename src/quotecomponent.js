@@ -12,8 +12,9 @@ const Quote = () => {
       setRandom(random+1)
     } else {
       setRandom(0)
-    }}
-    , 5000)
+    }
+
+    }, 5000)
     
 
   return (
@@ -22,7 +23,7 @@ const Quote = () => {
           <div className='background'>
             <div>
               <div className='quote'>"{quotes[random].quote}"</div> 
-              <div className='author'>{quotes[random].author}</div>
+              <div className='author active zoom-in'>{quotes[random].author}</div>
 
             </div>
           </div>
