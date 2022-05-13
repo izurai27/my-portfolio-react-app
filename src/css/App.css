@@ -84,3 +84,88 @@ button:hover{
 .logo{
   height: 1.6em;
 }
+
+.reveal{
+  position: relative;
+  opacity: 0;
+  
+}
+
+.reveal.active{
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+.active.zoom-in{
+  animation: zoom-in 1s ease-in-out;
+}
+
+.active.zoom-out {
+  animation: zoom-out 1s ease-in-out;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(50px);
+    
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    transform:scale(80%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+@keyframes zoom-out {
+  0% {
+    transform:scale(120%);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}

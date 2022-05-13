@@ -10,7 +10,7 @@ function Projects(){
           <h2><img className='logo' src={logo} alt="logo" />WORKS </h2>
           <div className='proj-container'>
             {projectlist.map(project => 
-              <div className='projectitem' key={project.id} style={{backgroundColor:project.color}}>
+              <div className='projectitem reveal fade-right' key={project.id} style={{backgroundColor:project.color}}>
                 <div className="projectDesc" style={{color:project.fontcolor}}>
                   <div className="title">{project.name}</div>
                   <p>{project.description}</p>

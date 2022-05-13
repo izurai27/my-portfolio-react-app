@@ -24,14 +24,14 @@ function Profile(){
       <div id='profile'>
         
         <h2><img className='logo' src={logo} alt="logo" />PROFILE </h2>
-        <div className="desc">
+        <div className="desc reveal zoom-out">
         <p>a self taught web developer who loves to learn and create apps that helps people.
         </p>
 
         
 
         </div>
-        <dir className='grouping'>
+        <dir className='grouping reveal zoom-in'>
           <div className='h3wrapper'><h3>SKILLS</h3></div>
           <div className='iconwrapper'>
             <img src={html} alt="html-logo" />
@@ -44,7 +44,7 @@ function Profile(){
           </div>
         </dir>
 
-        <div className="grouping" style={{backgroundColor:'#F9F871'}}>
+        <div className="grouping reveal zoom-out" style={{backgroundColor:'#F9F871'}}>
           <div className='h3wrapper' style={{backgroundColor:'#FFDB58', color:'#256264'}}><h3>CONTACT ME</h3></div>
           <div className='iconwrapper'>
             <a target="_blank" rel="noreferrer" href ='https://wa.me/628950588749'><img src={whatsapp} alt="wa-logo" /></a>

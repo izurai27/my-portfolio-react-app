@@ -10,56 +10,29 @@
   margin:auto;
   justify-content: center;
   align-items: center;
-  /* align-items: center; */
   padding: 50px 0 50px 0;
   box-sizing: border-box;
   position:relative;
-  /* margin-bottom:150px; */
-
   background-image: url('../images/water-color.svg');
-  /* background-image: url('../images/top-view-background-beautiful-white-grey-brown-cream-blue-background.jpg'); */
-  /* position: absolute; */
- 
   background-repeat: no-repeat;
   background-size: cover;
-  /* border:1px solid grey; */
   border-radius: 29% 71% 49% 51% / 46% 49% 51% 54% ;
-  /* border-radius: 74% 26% 24% 76% / 54% 49% 51% 46%  ; */
-  /* border-radius: 100%; */
-  /* width:80vmin;
-  height:80vmin; */
   border-bottom: 1px solid silver;
   
 }
 
-
-
-@keyframes example {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-
-
 .quote{
   font-size: 1.5rem;
-  /* max-width: 70vw; */
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
-  /* animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite; */
+  
  
 }
 
 .author{
   font-size: 1.3rem;
-  /* color:white; */
   font-family: 'Dancing Script', cursive;
-  /* animation-name: example;
-  animation-duration: 5s;
-  animation-iteration-count: infinite; */
 }
 
 .background{
@@ -72,36 +45,17 @@
 
   
 }
- 
-/* .quotewrapper::after{
-  content:'';
-  height: 50%;
-  width: 100%;
-  background-image: url('../images/5156621-thin.svg');
-  background-image: url('../images/water-color.svg');
-  position: absolute;
-  background-repeat: repeat-x;
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 40vw;
-  
-  left:0;
-  
-  
-} */
 
 
 @media only screen and (min-width:576px){
   .quote{
     font-size: 2.1rem;
     max-width: 70vw;
-    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size:1.9rem;
-    /* color:white; */
   }
 
   .quotewrapper::after{
@@ -115,13 +69,12 @@
   .quote{
     font-size: 2.3rem;
     max-width: 70vw;
-    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size: 2.1rem;
-    /* color:white; */
+    
   }
 
   .quotewrapper::after{
@@ -134,13 +87,13 @@
   .quote{
     font-size: 2.4rem;
     max-width: 70vw;
-    /* color:white; */
+   
     text-align: center;
   }
   
   .author{
     font-size: 2.2rem;
-    /* color:white; */
+    
   }
 
   .quotewrapper::after{
@@ -153,13 +106,13 @@
   .quote{
     font-size: 2.6rem;
     max-width: 70vw;
-    /* color:white; */
+    
     text-align: center;
   }
   
   .author{
     font-size: 2.4rem;
-    /* color:white; */
+    
   }
   .quotewrapper::after{
     
@@ -170,13 +123,12 @@
   .quote{
     font-size: 2.8rem;
     max-width: 70vw;
-    /* color:white; */
     text-align: center;
   }
   
   .author{
     font-size: 2.6rem;
-    /* color:white; */
+    
   }
   .quotewrapper::after{
     
