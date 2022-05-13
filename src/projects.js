@@ -13,8 +13,8 @@ function Projects(){
               <div className='projectitem' key={project.id} style={{backgroundColor:project.color}}>
                 <div className="projectDesc" style={{color:project.fontcolor}}>
                   <div className="title">{project.name}</div>
-                  <div>{project.description}</div>
-                  <a href={project.link} target="_blank" rel="noreferrer">Link</a> 
+                  <p>{project.description}</p>
+                  <a href={project.link} target="_blank" rel="noreferrer"><button style={{backgroundColor:project.buttoncolor,borderColor:project.buttoncolor, borderStyle:'solid',borderWidth:'1px'}}>Visit Website</button></a> 
 
                 </div>
                 <div className="imgcontainer">

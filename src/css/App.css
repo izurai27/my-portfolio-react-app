@@ -2,6 +2,9 @@
 
 *{
   margin:0;
+  box-sizing: border-box;
+  padding:0;
+
 }
 
 .App {
@@ -40,10 +43,40 @@
 }
 
 h2{
-  font-size: 3rem;
+  font-size: clamp(2.4rem, 3.5vw, 4rem); ;
   width:100%;
   text-align: left;
   text-transform: uppercase;
   /* margin-left:100px; */
 }
 
+h3{
+  font-size: clamp(1rem, 1.5vw, 1.5rem); 
+  font-weight: 300;
+}
+
+p{
+  font-size: clamp(1rem, 2.3vw, 2rem); ;
+}
+
+
+
+button{
+  width:fit-content;
+  padding:10px;
+  border:none;
+  background-color: #232057;
+  color:whitesmoke;
+  border-radius:5px;
+  cursor:pointer;
+  font-family : inherit;
+  font-size:1rem;
+}
+
+button:hover{
+  animation-name: bgc;
+  animation-duration: 1s;
+  background-color: #df7715;
+  transition: 500ms ease-in-out;
+  
+}

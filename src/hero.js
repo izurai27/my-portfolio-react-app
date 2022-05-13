@@ -18,7 +18,7 @@ function Hero(){
             
                  <div className="hero-left">
                     <div className="name">Izma Raifani</div>
-                    <div className="my-title">a web developer </div>
+                    <p className="my-title">a web developer</p>
                       <a href="#project"><button>see my works</button></a>
                     
                  </div>

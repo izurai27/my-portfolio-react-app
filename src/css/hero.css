@@ -38,11 +38,11 @@
 }
 
 .hero-left .my-title{
-    font-size:1.5rem;
+   
     text-align: left;
 }
 
-.hero-left button{
+/* button{
     width:fit-content;
     padding:15px;
     border:none;
@@ -51,7 +51,7 @@
     border-radius:5px;
     cursor:pointer;
     font-family : inherit;
-}
+} */
 
 .hero-left button:hover{
     animation-name: bgc;

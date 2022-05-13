@@ -9,3 +9,7 @@ footer{
   letter-spacing: 140%;
   padding:10px;
 }
+
+footer a{
+  display:inline;
+}
