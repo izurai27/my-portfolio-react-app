@@ -7,7 +7,7 @@ import logo from './images/iR-logos_transparent.png'
 function Projects(){
     return(
       <div id="project" className='proj-wrapper'>
-          <h2>WORKS <img className='logo' src={logo} alt="logo" /></h2>
+          <h2><img className='logo' src={logo} alt="logo" />WORKS </h2>
           <div className='proj-container'>
             {projectlist.map(project => 
               <div className='projectitem' key={project.id} style={{backgroundColor:project.color}}>

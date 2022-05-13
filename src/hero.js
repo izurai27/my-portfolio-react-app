@@ -19,7 +19,7 @@ function Hero(){
             
                  <div className="hero-left">
                  {/* <img className='logo' src={logo} alt="logo" /> */}
-                    <div className="name">Izma Raifani <img className='logo' src={logo} alt="logo" /></div>
+                    <div className="name"><img className='logo' src={logo} alt="logo" />Izma Raifani </div>
                     <p className="my-title">a web developer</p>
                       <a href="#project"><button>see my works</button></a>
                     

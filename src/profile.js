@@ -23,7 +23,7 @@ function Profile(){
     return (
       <div id='profile'>
         
-        <h2>PROFILE <img className='logo' src={logo} alt="logo" /></h2>
+        <h2><img className='logo' src={logo} alt="logo" />PROFILE </h2>
         <div className="desc">
         <p>a self taught web developer who loves to learn and create apps that helps people.
         </p>
