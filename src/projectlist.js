@@ -30,7 +30,7 @@ const projectlist = [
   },
   {   id: 'project3', 
       name: 'rest countries api',
-      description: 'frontendmentor.io challenge to build out Rock, Paper, Scissors game and get it looking as close to the design as possible',
+      description: 'frontendmentor.io challenge challenge is to integrate with the [REST Countries V2 API] to pull country data and display it like in the designs',
       preview: restcountriesapi,
       techUsed:['faReact',  'faExpress', 'faNodejs', 'faAxios', 'faMongoDb' , 'faFirebase'],
       link:'https://izurai27.github.io/rest-countries-api-with-color-theme-switcher-master/' ,
@@ -40,7 +40,8 @@ const projectlist = [
   },
   {   id: 'project2', 
       name: 'Rock Paper Scissor',
-      description: 'frontendmentor.io challenge challenge is to integrate with the [REST Countries V2 API] to pull country data and display it like in the designs',
+      description: 'frontendmentor.io challenge to build out Rock, Paper, Scissors game and get it looking as close to the design as possible',
+      
       preview: rockpaperscissor,
       techUsed:['faReact',  'faExpress', 'faNodejs', 'faAxios', 'faMongoDb' , 'faFirebase'],
       link:'https://izurai27.github.io/rock-paper-scissors/',
