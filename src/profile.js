@@ -43,8 +43,8 @@ function Profile(){
           </div>
         </dir>
 
-        <div className="grouping">
-          <div className='h3wrapper'><h3>CONTACT ME</h3></div>
+        <div className="grouping" style={{backgroundColor:'#F9F871'}}>
+          <div className='h3wrapper' style={{backgroundColor:'#FFDB58', color:'#256264'}}><h3>CONTACT ME</h3></div>
           <div className='iconwrapper'>
             <a target="_blank" rel="noreferrer" href ='https://wa.me/628950588749'><img src={whatsapp} alt="wa-logo" /></a>
             
