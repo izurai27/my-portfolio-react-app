@@ -6,11 +6,12 @@ import css from './images/css.png'
 import js from './images/javascript.png'
 import react from './images/react.png'
 import github from './images/GitHub.png'
-import git from './images/git.png'
-import typescript from './images/typescript.png'
+// import git from './images/git.png'
+// import typescript from './images/typescript.png'
 import whatsapp from './images/whatsapp.png'
 import linkedin from './images/linkedin.png'
-import sass from './images/sass.png'
+// import sass from './images/sass.png'
+import logo from './images/iR-logos_transparent.png'
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faWhatsapp, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -22,7 +23,7 @@ function Profile(){
     return (
       <div id='profile'>
         
-        <h2>PROFILE /</h2>
+        <h2>PROFILE <img className='logo' src={logo} alt="logo" /></h2>
         <div className="desc">
         <p>a self taught web developer who loves to learn and create apps that helps people.
         </p>
@@ -37,9 +38,9 @@ function Profile(){
             <img src={css} alt="css-logo" />
             <img src={js} alt="js-logo" />
             <img src={react} alt="react-logo" />
-            <img src={git} alt="git-logo" />
-            <img src={typescript} alt="typescript-logo" />
-            <img src={sass} alt="sass-logo" />
+            {/* <img src={git} alt="git-logo" /> */}
+            {/* <img src={typescript} alt="typescript-logo" /> */}
+            {/* <img src={sass} alt="sass-logo" /> */}
           </div>
         </dir>
 
@@ -49,7 +50,7 @@ function Profile(){
             <a target="_blank" rel="noreferrer" href ='https://wa.me/628950588749'><img src={whatsapp} alt="wa-logo" /></a>
             
             <a target="_blank" rel="noreferrer" href ='https://www.linkedin.com/in/izmaraifani/'><img src={linkedin} alt="linkedin-logo" /></a>
-            <a target="_blank" rel="noreferrer" href ='https://www.linkedin.com/in/izmaraifani/'><img src={github} alt="linkedin-logo" /></a>
+            <a target="_blank" rel="noreferrer" href ='https://github.com/izurai27'><img src={github} alt="linkedin-logo" /></a>
           </div>
         </div>
         

@@ -2,6 +2,7 @@ import React from 'react';
 import './css/hero.css'
 // import izma from './images/izma3.jpg'
 import femaleProgrammer from './images/female-programmer.svg'
+import logo from './images/iR-logos_transparent.png'
 
 function Hero(){
     
@@ -17,7 +18,8 @@ function Hero(){
             
             
                  <div className="hero-left">
-                    <div className="name">Izma Raifani</div>
+                 {/* <img className='logo' src={logo} alt="logo" /> */}
+                    <div className="name">Izma Raifani <img className='logo' src={logo} alt="logo" /></div>
                     <p className="my-title">a web developer</p>
                       <a href="#project"><button>see my works</button></a>
                     

@@ -2,12 +2,12 @@ import React from 'react';
 import './css/projects.css'
 import projectlist from './projectlist'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import logo from './images/iR-logos_transparent.png'
 
 function Projects(){
     return(
       <div id="project" className='proj-wrapper'>
-          <h2>WORKS /</h2>
+          <h2>WORKS <img className='logo' src={logo} alt="logo" /></h2>
           <div className='proj-container'>
             {projectlist.map(project => 
               <div className='projectitem' key={project.id} style={{backgroundColor:project.color}}>

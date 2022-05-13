@@ -80,3 +80,7 @@ button:hover{
   transition: 500ms ease-in-out;
   
 }
+
+.logo{
+  height: 1em;
+}
