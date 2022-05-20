@@ -25,7 +25,7 @@ function Profile(){
         
         <h2><img className='logo' src={logo} alt="logo" />PROFILE </h2>
         <div className="desc reveal zoom-out">
-        <p>a self taught web developer who loves to learn and create apps that helps people.
+        <p>Ex product manager who loves to code and create applications.
         </p>
 
         
