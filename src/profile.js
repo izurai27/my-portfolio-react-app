@@ -6,7 +6,7 @@ import css from './images/css.png'
 import js from './images/javascript.png'
 import react from './images/react.png'
 import github from './images/GitHub.png'
-// import git from './images/git.png'
+import git from './images/git.png'
 // import typescript from './images/typescript.png'
 import whatsapp from './images/whatsapp.png'
 import linkedin from './images/linkedin.png'
@@ -38,7 +38,7 @@ function Profile(){
             <img src={css} alt="css-logo" />
             <img src={js} alt="js-logo" />
             <img src={react} alt="react-logo" />
-            {/* <img src={git} alt="git-logo" /> */}
+            <img src={git} alt="git-logo" />
             {/* <img src={typescript} alt="typescript-logo" /> */}
             {/* <img src={sass} alt="sass-logo" /> */}
           </div>
