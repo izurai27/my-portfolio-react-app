@@ -1,4 +1,4 @@
-import dailyrecipe from './images/mockupdailyrecipe.png'
+// import dailyrecipe from './images/mockupdailyrecipe.png'
 import rockpaperscissor from './images/mockuprockpaper.png'
 import restcountriesapi from './images/mockupwhereintheworld.png'
 import danasyariah from './images/mockupdanasyariah.png'
@@ -6,18 +6,18 @@ import danasyariah from './images/mockupdanasyariah.png'
 // import chatApp from './images/chat-app.png'
 
 const projectlist = [
-  {   id: 'project1', 
-      name: 'daily Recipe',
-      description: 'a website that collects recipes from Youtube',
-      preview: dailyrecipe,
-      techUsed:['https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress',
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433',
-        "fa-brands fa-node", 'faAxios', 'faMongoDb' , 'faFirebase'],
-      link:'https://dailyrecipeapp.netlify.app/',
-      color:'#e45c29',
-      fontcolor:'white',
-      buttoncolor: '#fa7c4d'
-  },
+  // {   id: 'project1', 
+  //     name: 'daily Recipe',
+  //     description: 'a website that collects recipes from Youtube',
+  //     preview: dailyrecipe,
+  //     techUsed:['https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress',
+  //       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433',
+  //       "fa-brands fa-node", 'faAxios', 'faMongoDb' , 'faFirebase'],
+  //     link:'https://dailyrecipeapp.netlify.app/',
+  //     color:'#e45c29',
+  //     fontcolor:'white',
+  //     buttoncolor: '#fa7c4d'
+  // },
   {   id: 'project4', 
       name: 'Dana Syariah',
       description: 'a simple landing page for financial institution',
