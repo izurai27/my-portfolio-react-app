@@ -12,7 +12,7 @@ function Hero(){
         <div className="hero">
             <div className="hero-left active fade-right">
                 <div className="name"><img className='logo' src={logo} alt="logo" />Izma Raifani </div>
-                <p className="my-title">a web developer</p>
+                <p className="my-title">a self taught developer</p>
                 <a href="#project"><button>see my works</button></a>
             </div>
             <div className='hero-right active fade-left'>

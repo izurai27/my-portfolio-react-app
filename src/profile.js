@@ -7,6 +7,9 @@ import js from './images/javascript.png'
 import react from './images/react.png'
 import github from './images/GitHub.png'
 import git from './images/git.png'
+import php from './images/php.svg'
+import mysql from './images/mysql.svg'
+import flutter from './images/flutter.png'
 // import typescript from './images/typescript.png'
 import whatsapp from './images/whatsapp.png'
 import linkedin from './images/linkedin.png'
@@ -31,7 +34,7 @@ function Profile(){
         
 
         </div>
-        <dir className='grouping reveal zoom-in'>
+        <dir className='grouping reveal zoom-in skills'>
           <div className='h3wrapper'><h3>SKILLS</h3></div>
           <div className='iconwrapper'>
             <img src={html} alt="html-logo" />
@@ -41,10 +44,13 @@ function Profile(){
             <img src={git} alt="git-logo" />
             {/* <img src={typescript} alt="typescript-logo" /> */}
             {/* <img src={sass} alt="sass-logo" /> */}
+            <img src={php} alt="php-logo" />
+            <img src={mysql} alt="mysql-logo" />
+            <img src={flutter} alt="flutter-logo" />
           </div>
         </dir>
 
-        <div className="grouping reveal zoom-out" style={{backgroundColor:'#F9F871'}}>
+        <div className="grouping reveal zoom-out contactme" style={{backgroundColor:'#F9F871'}}>
           <div className='h3wrapper' style={{backgroundColor:'#FFDB58', color:'#256264'}}><h3>CONTACT ME</h3></div>
           <div className='iconwrapper'>
             <a target="_blank" rel="noreferrer" href ='https://wa.me/628950588749'><img src={whatsapp} alt="wa-logo" /></a>
